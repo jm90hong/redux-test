@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { useNavigate } from "react-router-dom";
 
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment,setAmount } from './counterSlice'
+import { decrement, increment,setAmount } from '../slices/counterSlice'
 
 export default function ReduxOnePage(){
 
